@@ -1,0 +1,85 @@
+.main{
+    position: relative;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,30%) ;
+    border-radius: 10px;
+    max-width: 20rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.output{
+    background-color: rgb(66, 76, 82);
+    height: 80px;
+    color: white;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+    
+}
+.lower{
+    background-color: rgb(137, 157, 174);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-top: 5px; */
+    
+}
+
+.row1 >div {
+    border: 1px solid rgb(141, 140, 140);
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: rgb(210, 220, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 5px;
+
+}
+
+.numbers > div{
+    border: 1px solid rgb(141, 140, 140);
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin: 5px;
+    background-color: rgb(210, 220, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equal{
+    width: 50px;
+    background-color: pink;
+    border-radius: 30px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
